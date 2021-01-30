@@ -64,8 +64,21 @@ $ ./4-pairing_socks.py
 
 
 [5.](https://github.com/erikaosgue/python_challenges/blob/master/5-counting_valleys.py)
+ 
+Complete the 'countingValleys' function
+
+The function is expected to return an INTEGER.
+The function accepts following parameters:
+1. INTEGER steps
+2. STRING path
 
 [6.](https://github.com/erikaosgue/python_challenges/blob/master/6-jumping_on_the_clouds.py)
+
+count the amount of valleys that a hikers does
+A mountain is a sequence of consecutive steps above sea level. Starting with a setup from sea level and ending with a step down to sea level
+
+A valley is a sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level
+valley ends only when it is a step above sea level 
 
 [7. write a function for leap year](https://github.com/erikaosgue/python_challenges/blob/master/7-write_a_function.py)
 
@@ -92,4 +105,19 @@ The substring we consider is `abcacabcac`, the first `10` characters of the infi
 
 [10](https://github.com/erikaosgue/python_challenges/blob/master/10-parallel_processing.py)
 [11](https://github.com/erikaosgue/python_challenges/blob/master/11-sort_roman_numbers.py)
+
+Function that sorts names with roman numbers
+Example:
+input_array = ['Juan X', 'Sebastian XL', 'Cristian III', 'Julio IV', 'Juan XII']
+output: ['Cristian III', 'Juan X', 'Juan XII', 'Julio IV', 'Sebastian XL']
+
 [12](https://github.com/erikaosgue/python_challenges/blob/master/12-sort_transaction.py)
+
+Count the amount of names, that are in the array and sort first by the count then by name, where the count should start with the biggest value
+
+Example:
+
+input_array = ['Dog', 'Cat', 'Bird', 'Snake', 'Dog', 'Snake', 'Snake'], 'Bird'
+output = ['Snake 3', 'Bird 2', 'Dog 2', 'Cat 1']
+
+
