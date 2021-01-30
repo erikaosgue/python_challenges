@@ -27,5 +27,6 @@ def transactions(array):
 
 
 if __name__ == "__main__":
-    array = ['Peter', 'Carlos', 'Sebastian', 'Peter', 'Peter', 'Carlos', 'Carlos', 'Zio', 'Zio', 'Zio', 'Zio']
+    array = ['Dog', 'Cat', 'Bird', 'Snake', 'Dog', 'Snake', 'Snake', 'Bird']
+    # array = ['Peter', 'Carlos', 'Sebastian', 'Peter', 'Peter', 'Carlos', 'Carlos', 'Zio', 'Zio', 'Zio', 'Zio']
     print(transactions(array))
