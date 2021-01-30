@@ -42,9 +42,7 @@ def sort_roman_numbers(names):
         name, roman_num = element.split(" ")
         decimal_num = get_decimal_number(roman_num)
         new_list.append((name, decimal_num, roman_num))
-    print(new_list)
     x = sorted(new_list, key=lambda item: (item[0], item[1]))
-    print(x)
     l = [name + " " + roman_num for name, _, roman_num, in x]
     return l
 
@@ -53,5 +51,7 @@ def sort_roman_numbers(names):
 
 
 if __name__ == "__main__":
-    names = ['Steven XL', 'Steven XVI', 'David IX', 'Mary XV', 'Masy XIII', 'Mary XX', 'Erika XLIV', 'Leon XLIX']
+
+    names = ['Juan X', 'Sebastian XL', 'Cristian III', 'Julio IV', 'Juan XII']
+    # names = ['Steven XL', 'Steven XVI', 'David IX', 'Mary XV', 'Masy XIII', 'Mary XX', 'Erika XLIV', 'Leon XLIX']
     print(sort_roman_numbers(names))
