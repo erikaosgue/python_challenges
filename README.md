@@ -1,8 +1,8 @@
-# Python Challenges
+ Python Challenges
 
 Tasks:books:
 
-[0. Triangle Quest]()
+[0. Triangle Quest](https://github.com/erikaosgue/python_challenges/blob/master/0-triangle_quest.py)
 
 You are given a positive integer `N`. Print a numerical triangle of height `N-1`
 
@@ -19,13 +19,13 @@ Can you do it using only arithmetic operations, a single for loop and print stat
 
 Use no more than two lines. 
 
-[1. Reverse Words]()
+[1. Reverse Words](https://github.com/erikaosgue/python_challenges/blob/master/1-reverse_words_and_swap_cases.py)
 
-[2. Swap Cases]()
+[2. Swap Cases](https://github.com/erikaosgue/python_challenges/blob/master/2-swap_case.py)
 
 You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
 
-[3. split and Join]()
+[3. split and Join](https://github.com/erikaosgue/python_challenges/blob/master/3-split_and_join_str.py)
 
 You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
@@ -33,7 +33,10 @@ Input Format
 The first line contains a string consisting of space separated words.
 
 Output Format
-Print the formatted string as explained above. 
+Print the formatted string as explained above.
+
+[4.](https://github.com/erikaosgue/python_challenges/blob/master/4-pairing_socks.py)
+[5.](https://github.com/erikaosgue/python_challenges/blob/master/5-counting_valleys.py)
 
 [7. write a function for leap year]()
 
