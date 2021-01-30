@@ -7,20 +7,25 @@ def transactions(array):
 
     dict_names = {}
     for name in array:
-        if (name not in dict_names):
-            dict_names[name] = 1
-        else:
-            dict_names[name] += 1
-    sorted_list = []
+        if name not in dict_names:
+            dict_names[name] = 0
+        dict_names[name] += 1
+    
+    sorted_tuple = []
     for k, v in dict_names.items():
-        sorted_list.append(k + " " + str(v))
-    x = sorted(sorted_list, key=lambda item: item.split(" ")[1], reverse=True)
-    return(x)
+        sorted_tuple.append((k, v))
+    sorted_list = sorted(sorted_tuple, key=lambda item: (item[0]))
+    l = sorted(sorted_list, key=lambda item: item[1], reverse=True)
+    new_list = []
+    
+    for k, v in l:
+        new_list.append(k + " " +  str(v))
+    return(new_list)
 
 
 
 
 
 if __name__ == "__main__":
-    array = ['Peter', 'Carlos', 'Sebastian', 'Peter', 'Peter', 'Carlos', 'Zio', 'Zio', 'Zio', 'Zio']
+    array = ['Peter', 'Carlos', 'Sebastian', 'Peter', 'Peter', 'Carlos', 'Carlos', 'Zio', 'Zio', 'Zio', 'Zio']
     print(transactions(array))
