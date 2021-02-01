@@ -11,14 +11,17 @@ def transactions(array):
             dict_names[name] = 0
         dict_names[name] += 1
     
-    sorted_tuple = []
+    unsorted_tuple = []
     for k, v in dict_names.items():
-        sorted_tuple.append((k, v))
-    sorted_list = sorted(sorted_tuple, key=lambda item: (item[0]))
-    l = sorted(sorted_list, key=lambda item: item[1], reverse=True)
-    new_list = []
+        unsorted_tuple.append((k, v))
+    # First sort by name
+    sorted_list_by_name = sorted(unsorted_tuple, key=lambda item: (item[0]))
+    # then sort by value which is sum of the repeated names
+    sorted_by_greates_value = sorted(sorted_list_by_name, key=lambda item: item[1], reverse=True)
     
-    for k, v in l:
+    # Transform a list of tuples to a list of the form ['name quantity']
+    new_list = []    
+    for k, v in sorted_by_greates_value:
         new_list.append(k + " " +  str(v))
     return(new_list)
 
