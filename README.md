@@ -121,3 +121,23 @@ input_array = ['Dog', 'Cat', 'Bird', 'Snake', 'Dog', 'Snake', 'Snake'], 'Bird'
 output = ['Snake 3', 'Bird 2', 'Dog 2', 'Cat 1']
 
 
+[13. housrglass 2D array]
+
+Given a 6x6 2D Array, arr :
+    1 1 1 0 0 0
+    0 1 0 0 0 0
+    1 1 1 0 0 0
+    0 0 0 0 0 0
+    0 0 0 0 0 0
+    0 0 0 0 0 0
+
+An hourglass in A is a subset of values with indices falling in this pattern in  arr's graphical representation:
+    a b c
+      d
+    e f g
+
+There are 16 hourglasses in arr. An hourglass sum is the sum of an hourglass' values. Calculate the hourglass sum for every hourglass in arr, then print the maximum hourglass sum. The array will always be 6x6.
+
+In the example above the output should be
+output:
+    7
