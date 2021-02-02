@@ -121,7 +121,7 @@ input_array = ['Dog', 'Cat', 'Bird', 'Snake', 'Dog', 'Snake', 'Snake'], 'Bird'
 output = ['Snake 3', 'Bird 2', 'Dog 2', 'Cat 1']
 
 
-[13. housrglass 2D array]
+[13. housrglass 2D array]()
 
 Given a 6x6 2D Array, arr :
     1 1 1 0 0 0
@@ -141,3 +141,21 @@ There are 16 hourglasses in arr. An hourglass sum is the sum of an hourglass' va
 In the example above the output should be
 output:
     7
+
+[14  Left Rotation]()
+
+Given an array ```a``` of ```n``` integers and a number, ```d``` , perform ```d```   left rotations on the array. Return the updated array to be printed as a single line of space-separated integers.
+
+Returns
+
+int a'[n]: the rotated array
+
+Example:
+
+    5 4 
+    1 2 3 4 5
+
+5 is the len of the array, 4 number of left rotations
+output:
+
+    5 1 2 3 4
