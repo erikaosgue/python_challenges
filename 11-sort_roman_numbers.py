@@ -47,7 +47,6 @@ def sort_roman_numbers(names):
     return l
 
 
-        
 
 
 if __name__ == "__main__":
