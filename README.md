@@ -173,3 +173,7 @@ No value is returned. Print the minimum number of bribes necessary or Too chaoti
 [16]
 
 [17]
+
+[18]
+
+[19]
