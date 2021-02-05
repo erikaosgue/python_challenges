@@ -174,6 +174,4 @@ No value is returned. Print the minimum number of bribes necessary or Too chaoti
 
 [17 num duplicates]
 
-[18]
-
-[19]
+[18 super stack]
