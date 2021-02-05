@@ -168,3 +168,8 @@ Determine the minimum number of bribes that took place to get to a given queue o
 
 Returns:
 No value is returned. Print the minimum number of bribes necessary or Too chaotic if someone has bribed more than  people.
+
+
+[16]
+
+[17]
